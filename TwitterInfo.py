@@ -7,17 +7,17 @@ from tweepy import OAuthHandler
 import time
 import os
 
-# fill in values with your own keys
-CONSUMER_KEY = ''
-CONSUMER_SECRET = ''
-ACCESS_KEY = ''
-ACCESS_SECRET = ''
+# fill in values with your own keys - dev.twitter.com
+CONSUMER_KEY = 'value'
+CONSUMER_SECRET = 'value'
+ACCESS_KEY = 'value'
+ACCESS_SECRET = 'value'
 
 auth = OAuthHandler(CONSUMER_KEY,CONSUMER_SECRET)
 api = tweepy.API(auth)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 
-# Array of twitter IDs. Fill in the actual user IDs, please. If you don't know, use the other script.
+# Array of twitter IDs. Fill in the actual user IDs
 ids = []
 
 for i in ids:
